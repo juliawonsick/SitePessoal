@@ -1,0 +1,74 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(52, 50, 50);
+    color: antiquewhite;
+}
+
+.container{
+    margin-inline: auto;
+    max-width: 100%;
+}
+.foto{
+    width: 50%;
+    height: 550px;
+    margin-left: 50px;
+    border-radius: 10000%;
+
+}
+
+#sobreMim{
+    color: rgb(233, 225, 0);
+}
+
+#experiencias{
+    color: rgb(233, 225, 0);
+}
+
+#contatos{
+    color: rgb(233, 225, 0);
+}
+
+.btn-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+}
+.mainBanner, w-100{
+    width: 100%;
+
+}
+.menu{
+    background-color: rgb(233, 225, 0);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+.btn{
+    background-color: black;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    margin-inline: auto;
+    text-decoration: none;
+    padding: 5px;
+    width: 150px;
+}
+.footer{
+    background-color: rgb(233, 225, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
